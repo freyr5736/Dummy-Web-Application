@@ -13,6 +13,9 @@ The Dummy Web Application is a dynamic website built on the .NET Framework, desi
 - **ASP.NET**: Framework for building web applications with a rich set of features.
 - **HTML**: Markup language for structuring the web pages.
 - **CSS**: Stylesheet language used for designing and customizing the website’s appearance.
+- **Bootstrap**: Front-end framework for responsive design and layout.
+- **jQuery**: JavaScript library to simplify DOM manipulation and event handling.
+- **DataTables**: jQuery plugin for advanced table features, such as pagination and searching.
 - **SQL Server**: Database management system used for storing user data and managing sessions.
 
 ## Features
@@ -35,7 +38,10 @@ The Dummy Web Application is a dynamic website built on the .NET Framework, desi
   - A consistent header and footer across all pages to enhance user experience and navigation.
 
 - **Responsive Design**: 
-  - The website is designed to be responsive, ensuring a seamless experience on various devices.
+  - The website is designed using Bootstrap to ensure a seamless experience on various devices.
+
+- **Interactive Tables**: 
+  - DataTables is integrated to provide advanced features such as sorting, searching, and pagination for any tabular data.
 
 ## Getting Started
 
@@ -64,6 +70,7 @@ To run the Dummy Web Application locally, follow these steps:
 - **Admin Login**: Access administrative features through the admin login page.
 - **Dynamic Navigation**: Use the master header and footer to navigate between pages.
 - **Home Page**: Explore the home page for an overview of the application.
+- **Interactive Tables**: Utilize DataTables for advanced functionality in any displayed tables.
 
 ## Contribution
 
@@ -72,9 +79,10 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## Acknowledgments
 
 - .NET Framework Team for their incredible tools and frameworks.
+- The Bootstrap, jQuery, and DataTables communities for their contributions.
 - The open-source community for their continuous support and contributions.
-- Thank You Very Much to Simple Snippets whose videos guided me through the project. https://www.youtube.com/@SimpleSnippets
+- Thank You Very Much to Simple Snippets whose videos guided me through the project. https://www.youtube.com/@SimpleSnippets.
 
 ---
 
-Feel free to adjust any section or add more details specific to your project!
+Feel free to adjust any section or add more specific details to better suit your project!
