@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Dummy Web Application is a dynamic website built on the .NET Framework. It serves as a foundational template for web development projects, featuring placeholders and essential functionalities commonly required in web applications. 
+The Dummy Web Application is a dynamic website built on the .NET Framework, designed as a foundational template for web development projects. It features placeholders and essential functionalities commonly required in web applications, making it ideal for learning and customization.
 
 ## Technologies Used
 
@@ -19,8 +19,21 @@ The Dummy Web Application is a dynamic website built on the .NET Framework. It s
 
 - **User Authentication**: 
   - Login and logout functionalities to manage user sessions.
+  - Member signup for new users to create an account.
+  - Admin login to access administrative features.
+
 - **Dynamic Content**: 
   - The application provides dynamic content with placeholders, allowing easy customization and extension.
+
+- **Database Storage**: 
+  - SQL Server is used to store user information, including login credentials and module details.
+  
+- **Home Page**: 
+  - A welcoming homepage that serves as the starting point for navigation.
+
+- **Master Header and Footer**: 
+  - A consistent header and footer across all pages to enhance user experience and navigation.
+
 - **Responsive Design**: 
   - The website is designed to be responsive, ensuring a seamless experience on various devices.
 
@@ -46,17 +59,15 @@ To run the Dummy Web Application locally, follow these steps:
 
 ## Usage
 
-- Navigate to the login page to enter user credentials.
-- Use the provided links to navigate through the application features.
-- Customize placeholders to fit your project needs.
+- **User Login**: Navigate to the login page to enter user credentials.
+- **Member Signup**: New users can register by providing the required details.
+- **Admin Login**: Access administrative features through the admin login page.
+- **Dynamic Navigation**: Use the master header and footer to navigate between pages.
+- **Home Page**: Explore the home page for an overview of the application.
 
 ## Contribution
 
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -65,4 +76,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to modify any sections as necessary to better fit your project!
+Feel free to adjust any section or add more details specific to your project!
