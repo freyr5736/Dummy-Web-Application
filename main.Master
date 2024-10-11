@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.Master.cs" Inherits="Project_02_Web_Application_C_Sharp_07_07_24.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <!-- Bootstrap -->
+    <link href="bootsrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- Datatables -->
+    <link href="datatables/dataTables.dataTables.min.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href="fonts/fontawesome-free-6.5.2-web/css/all.css" rel="stylesheet" />
+    <!-- Custom stylesheet -->
+    <link href="css/customStyleSheet.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+    <script src="bootsrap/jquery-3.2.1.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="bootsrap/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="bootsrap/bootstrap.min.js"></script>
+    <!--Datatbles JS -->
+    <script src="datatables/dataTables.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light p-0" style="background-color: #ececec;">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/icons8-bot-50.png" width="30" height="30" />
+                    Project 02
+                </a>
+                <!-- Togglebar Start -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Togglebar End -->
+
+                <!-- Navigation Bar Start -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <asp:LinkButton ID="lnkHome" runat="server" CssClass="nav-link" 
+                                PostBackUrl="~/homepage.aspx">Home <span class="sr-only">(current)</span></asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkAboutUs" runat="server" CssClass="nav-link" 
+                                PostBackUrl="~/aboutus.aspx">About Us</asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkTerms" runat="server" CssClass="nav-link" 
+                                PostBackUrl="~/terms.aspx">Terms</asp:LinkButton>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkLogin" runat="server" CssClass="nav-link" 
+                                PostBackUrl="~/userlogin.aspx">Login</asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkSignUp" runat="server" CssClass="nav-link" 
+                                PostBackUrl="~/usersignup.aspx">Sign Up</asp:LinkButton>
+                        </li>
+                         
+                         <li class="nav-item">
+                             <asp:LinkButton ID="lnkLogout" runat="server" CssClass="nav-link"
+                              PostBackUrl="~/homepage.aspx" OnClick="lnkLogout_Click">Logout</asp:LinkButton>
+                         </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="lnkUser" runat="server" CssClass="nav-link"
+                                PostBackUrl="~/homepage.aspx">User</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navigation Bar End -->
+            </nav>
+        </div>
+
+        <!-- Main Content Start -->
+        <div class="container-fluid p-0">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content End -->
+
+        <!-- Footer Start -->
+        <footer class="container-fluid p-0">
+            <div id="footer1" class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">                  
+                        <asp:LinkButton ID="ModeratorButton" runat="server" CssClass="link-button" 
+                                        Text="Moderator List" OnClick="ModeratorButton_Click" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>By Bhaskar</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    </form>
+</body>
+</html>

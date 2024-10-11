@@ -1,0 +1,68 @@
+﻿/* Footer styling */
+#footer1 {
+    background: #762b00;
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+    #footer1 a {
+        color: white !important;
+        text-decoration: none !important; /* Removes underline */
+        transition: color 0.3s ease; /* Smooth transition effect */
+    }
+
+        #footer1 a:hover {
+            color: darkgray !important; /* Darker shade of white for hover */
+        }
+
+        #footer1 a:visited {
+            color: white !important; /* Ensures visited links are also white */
+        }
+
+    #footer1 p {
+        color: #fff;
+        margin: 0;
+    }
+
+#footer2 {
+    background: #531f00;
+    padding: 10px 0; /* Add some padding for spacing */
+    color: white; /* Ensure text is white */
+    text-align: center; /* Center the text */
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    color: #000; /* Dark text for visibility */
+    background-color: #fff; /* Light background */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 8px; /* Padding for better usability */
+    font-size: 16px; /* Ensure legible font size */
+    border-radius: 4px; /* Slightly rounded corners */
+    margin-bottom: 10px; /* Space below each input field */
+}
+
+input::placeholder {
+    color: #aaa; /* Placeholder color for contrast */
+}
+
+/* Optional styling for buttons (if needed) */
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+    button:hover,
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: #218838; /* Darker green on hover */
+    }

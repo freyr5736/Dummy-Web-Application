@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codin\u0027\\PROJECTS\\Project_02_Web Application_C Sharp_07_07_24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27AA9A03-D980-4632-8496-C4033564587F}|Project_02_Web Application_C Sharp_07_07_24.csproj|d:\\codin\u0027\\projects\\project_02_web application_c sharp_07_07_24\\moddetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{27AA9A03-D980-4632-8496-C4033564587F}|Project_02_Web Application_C Sharp_07_07_24.csproj|solutionrelative:moddetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27AA9A03-D980-4632-8496-C4033564587F}|Project_02_Web Application_C Sharp_07_07_24.csproj|d:\\codin\u0027\\projects\\project_02_web application_c sharp_07_07_24\\moddetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27AA9A03-D980-4632-8496-C4033564587F}|Project_02_Web Application_C Sharp_07_07_24.csproj|solutionrelative:moddetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "moddetail.aspx",
+              "DocumentMoniker": "D:\\Codin\u0027\\PROJECTS\\Project_02_Web Application_C Sharp_07_07_24\\moddetail.aspx",
+              "RelativeDocumentMoniker": "moddetail.aspx",
+              "ToolTip": "D:\\Codin\u0027\\PROJECTS\\Project_02_Web Application_C Sharp_07_07_24\\moddetail.aspx",
+              "RelativeToolTip": "moddetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-11T15:01:36.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "moddetail.aspx.cs",
+              "DocumentMoniker": "D:\\Codin\u0027\\PROJECTS\\Project_02_Web Application_C Sharp_07_07_24\\moddetail.aspx.cs",
+              "RelativeDocumentMoniker": "moddetail.aspx.cs",
+              "ToolTip": "D:\\Codin\u0027\\PROJECTS\\Project_02_Web Application_C Sharp_07_07_24\\moddetail.aspx.cs",
+              "RelativeToolTip": "moddetail.aspx.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAIwHsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:00:08.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
