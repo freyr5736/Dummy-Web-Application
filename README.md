@@ -73,6 +73,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 - .NET Framework Team for their incredible tools and frameworks.
 - The open-source community for their continuous support and contributions.
+- Thank You Very Much to Simple Snippets whose videos guided me through the project. https://www.youtube.com/@SimpleSnippets
 
 ---
 
