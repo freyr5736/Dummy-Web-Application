@@ -1,4 +1,3 @@
-Here’s a sample README text for your .NET Framework project:
 
 ---
 
